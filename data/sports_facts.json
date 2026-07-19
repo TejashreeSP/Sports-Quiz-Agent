@@ -1,0 +1,246 @@
+[
+  {
+    "sport": "Cricket",
+    "fact": "The first official Test match was played in 1877 between Australia and England at the Melbourne Cricket Ground."
+  },
+  {
+    "sport": "Cricket",
+    "fact": "India won its first ICC Cricket World Cup in 1983 under the captaincy of Kapil Dev."
+  },
+  {
+    "sport": "Cricket",
+    "fact": "The ICC Men's Cricket World Cup is held every four years."
+  },
+  {
+    "sport": "Cricket",
+    "fact": "Sachin Tendulkar is known as the 'Master Blaster' and scored 100 international centuries."
+  },
+  {
+    "sport": "Cricket",
+    "fact": "The Ashes is a historic Test cricket series played between Australia and England."
+  },
+  {
+    "sport": "Cricket",
+    "fact": "A cricket team has 11 players on the field."
+  },
+  {
+    "sport": "Cricket",
+    "fact": "The ICC was founded in 1909 and governs international cricket."
+  },
+  {
+    "sport": "Cricket",
+    "fact": "The first ICC Men's T20 World Cup was held in South Africa in 2007."
+  },
+  {
+    "sport": "Cricket",
+    "fact": "India won the inaugural ICC Men's T20 World Cup in 2007."
+  },
+  {
+    "sport": "Cricket",
+    "fact": "Virat Kohli has captained India in all three international formats."
+  },
+  {
+    "sport": "Cricket",
+    "fact": "A century in cricket means a batter scores 100 or more runs in one innings."
+  },
+  {
+    "sport": "Cricket",
+    "fact": "The Melbourne Cricket Ground (MCG) is one of the world's largest cricket stadiums."
+  },
+
+  {
+    "sport": "Football",
+    "fact": "The first FIFA World Cup was held in Uruguay in 1930."
+  },
+  {
+    "sport": "Football",
+    "fact": "Uruguay won the inaugural FIFA World Cup."
+  },
+  {
+    "sport": "Football",
+    "fact": "The FIFA World Cup is held every four years."
+  },
+  {
+    "sport": "Football",
+    "fact": "A football team has 11 players on the field."
+  },
+  {
+    "sport": "Football",
+    "fact": "Lionel Messi captained Argentina to the 2022 FIFA World Cup title."
+  },
+  {
+    "sport": "Football",
+    "fact": "Cristiano Ronaldo has won multiple UEFA Champions League titles."
+  },
+  {
+    "sport": "Football",
+    "fact": "The UEFA Champions League is Europe's premier club football competition."
+  },
+  {
+    "sport": "Football",
+    "fact": "The Ballon d'Or is awarded annually to one of the world's best football players."
+  },
+  {
+    "sport": "Football",
+    "fact": "A standard football match consists of two halves of 45 minutes each."
+  },
+  {
+    "sport": "Football",
+    "fact": "The offside rule prevents attackers from gaining an unfair advantage near the opponent's goal."
+  },
+  {
+    "sport": "Football",
+    "fact": "Brazil has won the FIFA World Cup more times than any other nation."
+  },
+  {
+    "sport": "Football",
+    "fact": "The penalty spot is located 12 yards from the goal line."
+  },
+
+  {
+    "sport": "Basketball",
+    "fact": "Basketball was invented by Dr. James Naismith in 1891."
+  },
+  {
+    "sport": "Basketball",
+    "fact": "A basketball team has five players on the court."
+  },
+  {
+    "sport": "Basketball",
+    "fact": "An NBA game consists of four quarters."
+  },
+  {
+    "sport": "Basketball",
+    "fact": "The NBA was founded in 1946."
+  },
+  {
+    "sport": "Basketball",
+    "fact": "Michael Jordan won six NBA championships with the Chicago Bulls."
+  },
+  {
+    "sport": "Basketball",
+    "fact": "A successful shot from beyond the three-point line is worth three points."
+  },
+  {
+    "sport": "Basketball",
+    "fact": "Free throws are worth one point each."
+  },
+  {
+    "sport": "Basketball",
+    "fact": "The basketball hoop is 10 feet above the floor."
+  },
+  {
+    "sport": "Basketball",
+    "fact": "The Olympic basketball tournament includes men's and women's competitions."
+  },
+  {
+    "sport": "Basketball",
+    "fact": "The point guard is often responsible for directing the team's offense."
+  },
+  {
+    "sport": "Basketball",
+    "fact": "A slam dunk is a shot where the player scores by putting the ball directly through the hoop."
+  },
+  {
+    "sport": "Basketball",
+    "fact": "The FIBA Basketball World Cup is organized by the International Basketball Federation."
+  },
+
+  {
+    "sport": "Tennis",
+    "fact": "There are four Grand Slam tournaments each year."
+  },
+  {
+    "sport": "Tennis",
+    "fact": "Wimbledon is the oldest tennis tournament."
+  },
+  {
+    "sport": "Tennis",
+    "fact": "The Australian Open is played on hard courts."
+  },
+  {
+    "sport": "Tennis",
+    "fact": "The French Open is played on clay courts."
+  },
+  {
+    "sport": "Tennis",
+    "fact": "Wimbledon is played on grass courts."
+  },
+  {
+    "sport": "Tennis",
+    "fact": "The US Open is played on hard courts."
+  },
+  {
+    "sport": "Tennis",
+    "fact": "A tennis match can be played in best-of-three or best-of-five sets depending on the event."
+  },
+  {
+    "sport": "Tennis",
+    "fact": "A player must win a set by at least two games unless a tiebreak decides the set."
+  },
+  {
+    "sport": "Tennis",
+    "fact": "Roger Federer won 20 Grand Slam singles titles."
+  },
+  {
+    "sport": "Tennis",
+    "fact": "Rafael Nadal is especially known for his success at the French Open."
+  },
+  {
+    "sport": "Tennis",
+    "fact": "Novak Djokovic has won multiple Grand Slam singles titles."
+  },
+  {
+    "sport": "Tennis",
+    "fact": "The ATP governs the main men's professional tennis tour."
+  },
+
+  {
+    "sport": "Badminton",
+    "fact": "The Thomas Cup is the world men's team badminton championship."
+  },
+  {
+    "sport": "Badminton",
+    "fact": "India won its first Thomas Cup title in 2022."
+  },
+  {
+    "sport": "Badminton",
+    "fact": "The BWF stands for Badminton World Federation."
+  },
+  {
+    "sport": "Badminton",
+    "fact": "Badminton is played with a shuttlecock."
+  },
+  {
+    "sport": "Badminton",
+    "fact": "A badminton singles court is narrower than a doubles court."
+  },
+  {
+    "sport": "Badminton",
+    "fact": "A badminton match is usually played as the best of three games."
+  },
+  {
+    "sport": "Badminton",
+    "fact": "Each game is normally played to 21 points."
+  },
+  {
+    "sport": "Badminton",
+    "fact": "P. V. Sindhu won a silver medal at the 2016 Olympic Games."
+  },
+  {
+    "sport": "Badminton",
+    "fact": "Saina Nehwal won an Olympic bronze medal in 2012."
+  },
+  {
+    "sport": "Badminton",
+    "fact": "The All England Open is one of the oldest badminton tournaments."
+  },
+  {
+    "sport": "Badminton",
+    "fact": "The Uber Cup is the world women's team badminton championship."
+  },
+  {
+    "sport": "Badminton",
+    "fact": "The badminton net is 1.55 meters high at the posts."
+  }
+]
