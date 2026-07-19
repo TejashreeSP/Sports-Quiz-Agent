@@ -1,6 +1,6 @@
 streamlit
 chromadb
-duckduckgo-search
+ddgs
 sentence-transformers
 google-genai
 python-dotenv
