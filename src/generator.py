@@ -31,7 +31,7 @@ def generate_quiz(sport, difficulty, num_questions=4):
 
     try:
         response = client.models.generate_content(
-            model="gemini-2.5-flash",   # <-- Updated model
+            model="gemini-2.5-pro",   # <-- Updated model
             contents=prompt
         )
 
