@@ -4,8 +4,7 @@ from src.config import GEMINI_API_KEY
 from src.database import query_historic_facts
 from src.search import get_live_news_context
 from src.prompt import QUIZ_PROMPT
-import time
-from google.genai.errors import ServerError
+
 
 
 
@@ -32,17 +31,10 @@ def generate_quiz(sport, difficulty, num_questions=4):
         news=news
     )
 
-    for i in range(3):
-    try:
-        response = client.models.generate_content(
-            model="gemini-2.0-flash",
+   response = client.models.generate_content(
+            model="gemini-3.5-flash",
             contents=prompt
         )
-        break
-    except ServerError:
-        if i == 2:
-            raise
-        time.sleep(10)
     
 
     return response.text
