@@ -4,6 +4,8 @@ from src.config import GEMINI_API_KEY
 from src.database import query_historic_facts
 from src.search import get_live_news_context
 from src.prompt import QUIZ_PROMPT
+from google.genai import errors
+import streamlit as st
 
 
 client = genai.Client(api_key=GEMINI_API_KEY)
@@ -29,9 +31,15 @@ def generate_quiz(sport, difficulty, num_questions=4):
         news=news
     )
 
+    try:
     response = client.models.generate_content(
         model="gemini-2.5-flash",
         contents=prompt
+    )
+except errors.APIError as e:
+    st.error(f"Status Code: {e.status_code}")
+    st.error(str(e))
+    raise
     )
 
     return response.text
