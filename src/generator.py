@@ -31,16 +31,21 @@ def generate_quiz(sport, difficulty, num_questions=4):
 
     try:
         response = client.models.generate_content(
-            model="gemini-3.5-flash",   # <-- Updated model
+            model="gemini-3.5-flash",
             contents=prompt
         )
 
         return response.text
 
     except ClientError as e:
-        raise Exception(f"Gemini Client Error: {e}")
+        print("Gemini Client Error:", e)
+        raise
 
-    except ServerError as e:
+    except ServerError:
         raise Exception(
             "Gemini server is currently busy. Please try again after a few seconds."
         )
+
+    except Exception as e:
+        print("Unexpected Error:", e)
+        raise
