@@ -5,9 +5,6 @@ from src.database import query_historic_facts
 from src.search import get_live_news_context
 from src.prompt import QUIZ_PROMPT
 
-
-
-
 client = genai.Client(api_key=GEMINI_API_KEY)
 
 
@@ -31,10 +28,9 @@ def generate_quiz(sport, difficulty, num_questions=4):
         news=news
     )
 
-   response = client.models.generate_content(
-            model="gemini-3.5-flash",
-            contents=prompt
-        )
-    
+    response = client.models.generate_content(
+        model="gemini-3.5-flash",
+        contents=prompt
+    )
 
     return response.text
