@@ -34,6 +34,6 @@ def generate_quiz(sport, difficulty, num_questions=4):
         model="gemini-2.5-flash",
         contents=prompt
     )
-    )
+    
 
     return response.text
