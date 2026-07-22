@@ -1,5 +1,5 @@
 from google import genai
-from google.genai.errors import ClientError
+from google.genai.errors import ClientError, ServerError
 
 from src.config import GEMINI_API_KEY
 from src.database import query_historic_facts
@@ -31,11 +31,16 @@ def generate_quiz(sport, difficulty, num_questions=4):
 
     try:
         response = client.models.generate_content(
-            model="gemini-2.5-flash-lite",
+            model="gemini-2.5-flash",   # <-- Updated model
             contents=prompt
         )
+
         return response.text
 
     except ClientError as e:
-        print(e)
-        raise
+        raise Exception(f"Gemini Client Error: {e}")
+
+    except ServerError as e:
+        raise Exception(
+            "Gemini server is currently busy. Please try again after a few seconds."
+        )
