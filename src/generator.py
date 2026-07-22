@@ -1,10 +1,10 @@
 from google import genai
-from google.genai.errors import ClientError, ServerError
 
 from src.config import GEMINI_API_KEY
 from src.database import query_historic_facts
 from src.search import get_live_news_context
 from src.prompt import QUIZ_PROMPT
+
 
 client = genai.Client(api_key=GEMINI_API_KEY)
 
@@ -29,22 +29,9 @@ def generate_quiz(sport, difficulty, num_questions=4):
         news=news
     )
 
-    try:
-        response = client.models.generate_content(
-            model="gemini-3.5-flash",
-            contents=prompt
-        )
+    response = client.models.generate_content(
+        model="gemini-3.5-flash",
+        contents=prompt
+    )
 
-        return response.text
-
-    except ClientError as e:
-        print("Gemini Client Error:", e)
-        raise
-
-    except ServerError as e:
-        print("Gemini Server Error:", e)
-        raise
-
-    except Exception as e:
-        print("Unexpected Error:", e)
-        raise
+    return response.text
