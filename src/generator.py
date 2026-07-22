@@ -41,10 +41,9 @@ def generate_quiz(sport, difficulty, num_questions=4):
         print("Gemini Client Error:", e)
         raise
 
-    except ServerError:
-        raise Exception(
-            "Gemini server is currently busy. Please try again after a few seconds."
-        )
+    except ServerError as e:
+        print("Gemini Server Error:", e)
+        raise
 
     except Exception as e:
         print("Unexpected Error:", e)
